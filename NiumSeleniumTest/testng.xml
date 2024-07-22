@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite" allow-return-values="true"> we can use this if we want to force the test method to return the value--> 
+<suite name="Suite">
+  <test name="Test">
+  <parameter name = "url" value="https://www.ebay.com"/>
+  <parameter name = "keyword" value="ipad"/>
+  <parameter name = "counter" value="5"/>
+    <classes>
+      <class name="com.ebay.search.test.EbaySearchTest"/>
+    </classes>
+  </test> 
+</suite> 
